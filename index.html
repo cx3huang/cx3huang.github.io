@@ -1,7 +1,69 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="utf-8" />
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>Hello Chelsea.</p>
+    <div data-collapse="medium" data-animation="default" data-duration="400" role="banner">
+        <div class="contain w-container">
+            <a href="#" class="brand w-nav-brand"><img src="" loading="lazy"></a>
+            <nav role="navigation" class="w-nav-menu">
+                <a href="#" class="nav-link w-nav-link">Projects</a>
+                <a href="#" class="nav-link button w-nav-link">Say hi!</a>
+            </nav>
+            <div class="w-nav-button">
+                <div class="w-icon-nav-menu"></div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container w-container">
+            <div class="text-block">Welcome!</div>
+            <h1 class="heading">I elevate user experiences ...</h1>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container w-container">
+            <h2 class="secondary-heading">Selected projects</h2>
+            <p class="paragraph">Lorem ipsum dolor...</p>
+            <div class="w-dyn-list">
+                <div role="list" class="w-dyn-items">
+                    <div class="project-details">
+                        <div class="project-type-preview"></div>
+                        <h3 class="project-name-preview"></h3>
+                        <p class="project-paragraph"></p>
+                        <div class="button-text">View project</div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-dyn-empty">
+                <div>No items found</div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container w-container">
+            <div class="form-block w-form">
+                <h1 class="secondary-heading">Let's work together!</h1>
+                <p class="dark-paragraph">Lorem ipsum</p>
+                <form id="email-form" name="email-form" data-name="Email Form" class="form">
+                    <div><label for="name-3" class="field-label">Name</label></div>
+                </form>
+                <div class="w-form-done">
+                    <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div class="w-form-fail">
+                    <div>Oops! Something sent wrong while submtting the form.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src=""></script>
+    <script src=""></script>
 </body>
 </html>
