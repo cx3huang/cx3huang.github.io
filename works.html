@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="js/slideshow.js"></script>
+    <meta charset="utf-8" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <div class="preloader">
+        <img src="./images/chelsea-img.png" alt="spinner" class="loader-img fade-in" style="animation-fill-mode: forwards;">
+    </div>
+    <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+    </div>
+    <div class="container">
+        <nav class="nav-menu">
+            <img src="images/Chelsea.png" alt="Logo" class="logo">
+            <ul class="left-menu">
+                <li>
+                    <a href="https://www.linkedin.com/in/chuang-0906/">
+                        <i class="fab fa-linkedin-in" style="color: #fff;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/cx3huang">
+                        <i class="fab fa-github-alt" style="color: #fff;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="tel:+1778-773-4984">
+                        <i class="fas fa-phone" style="color: #fff;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:cx3huang@uwaterloo.ca">
+                        <i class="fas fa-envelope" style="color: #fff;"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul class="right-menu">
+                <li><a href="./index.html" class="nav-link">About me</a></li>
+                <li><a href="./works.html" class="nav-link">Projects</a></li>
+                <li><a href="./experience.html" class="nav-link">Experiences</a></li>
+                <li><a href="./index.html#contact" class="nav-link button">Say hi!</a></li>
+            </ul>
+        </nav>
+        <div class="nav-button">
+            <div class="icon-nav-menu"></div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <h2 class="secondary-heading" style="margin-bottom: 40px;">Selected Projects / /</h2>
+            <div class="text-block">CAD Projects |</div>
+            <div class="flex space-y-4 my-4 md:grid md:grid-cols-3 md:gap-4 md:space-7-0 fade-in fade-delay" style="animation-fill-mode: forwards;">
+                <div class="collection-item rounded-2xl">
+                    <a class="white-text-block">Model &#8211 Greek Pantheon</a>
+                    <a class="text-block-coll">October, 2019.</a>
+                    <img loading="lazy" src="./images/pantheon2.png" class="card-image">
+                    <p class="desc-block">A model of the Greek Pantheon done in SolidWorks, originally for a school project. Used typical modelling tools in SolidWorks, and the PhotoView360 Add-in to edit surface materials and produce a render.</div>
+                <div class="collection-item rounded-2xl">
+                    <a class="white-text-block">Assembly &#8211 Bus</a>
+                    <a class="text-block-coll">November, 2019.</a>
+                    <img loading="lazy" src="./images/bus.png" class="card-image">
+                    <p class="desc-block">A model of a bus done in SolidWorks. This assembly includes the side mirror parts, the bus part, and the bike holder part. For this model, I explored using assemblies.</p>
+                </div>
+                <div class="collection-item rounded-2xl">
+                    <a class="white-text-block">Model &#8211 Plane</a>
+                    <a class="text-block-coll">November, 2019.</a>
+                    <img loading="lazy" src="images/plane2_edited.png" class="card-image">
+                    <p class="desc-block">A plane model done in SolidWorks, also originally for a school project. For this model, I mainly focused on creating a lofted, smooth shape with various modeling tools.</p>
+                </div>
+            </div>
+            <div class="fade-test-wrapper3">
+                <div class="text-block">Animation and Rendering Projects |</div>
+                <div class="flex space-y-4 my-4 md:grid md:grid-cols-3 md:gap-4 md:space-7-0 fade-test3 fade-test-transition3">
+                    <div class="collection-item rounded-2xl">
+                        <a class="white-text-block">Exterior Lighting in 3ds Max</a> 
+                        <a class="text-block-coll">april, 2020.</a>
+                        <div class="slideshow-container">
+                            <div class="mySlides fade" style="text-align: center">
+                                <img loading="lazy" class="card-gif" src="images/sun_position.gif">
+                            </div>
+                            <div class="mySlides fade" style="text-align: center">
+                                <img loading="lazy" class="card-gif" src="images/exterior_lighting_1.jpg">
+                            </div>
+                            <div class="mySlides fade" style="text-align: center">
+                                <img loading="lazy" class="card-gif" src="images/exterior_lighting_2.jpg">
+                            </div>
+                            <div class="mySlides fade" style="text-align: center">
+                                <img loading="lazy" class="card-gif" src="images/exterior_lighting_3.jpg">
+                            </div>
+                            <div class="mySlides fade" style="text-align: center">
+                                <img loading="lazy" class="card-gif" src="images/exterior_lighting_4.jpg">
+                            </div>
+
+                            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                        </div>
+                        <div style="text-align: center">
+                            <span class="dot" onclick="currentSlide(1, 0)"></span>
+                            <span class="dot" onclick="currentSlide(2, 0)"></span>
+                            <span class="dot" onclick="currentSlide(3, 0)"></span>
+                            <span class="dot" onclick="currentSlide(4, 0)"></span>
+                            <span class="dot" onclick="currentSlide(5, 0)"></span>
+                        </div>
+                        <p class="desc-block-wide">These renders were done in 3ds Max to experiment with different lighting tools. Some used for these include skydome with HDRI images and sunlight positioner. The model was done in 3ds Max as well. This was an interesting project to explore the Arnold renderer specifically!</p>
+                    </div>
+                    <div class="collection-item rounded-2xl">
+                        <a class="white-text-block">Maskora</a> 
+                        <a class="text-block-coll">November, 2020.</a>
+                        <div class="slideshow-container">
+                            <div class="mySlides2 fade" style="text-align: center">
+                                <img loading="lazy" src="images/rendered.gif" class="card-gif">                        </div>
+                            <div class="mySlides2 fade" style="text-align: center">
+                                <img loading="lazy" class="card-gif" src="images/liner1.jpg">
+                            </div>
+                            <div class="mySlides2 fade" style="text-align: center">
+                                <img loading="lazy" class="card-gif" src="images/liner2.jpg">
+                            </div>
+
+                            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                        </div>
+                        <div style="text-align: center">
+                            <span class="dot2" onclick="currentSlide(1, 1)"></span>
+                            <span class="dot2" onclick="currentSlide(2, 1)"></span>
+                            <span class="dot2" onclick="currentSlide(3, 1)"></span>
+                        </div>
+                        <p class="desc-block-wide">A project that I did with some friends at the UofT Designathon 2021. This design was prompted by a need to prevent glasses from fogging up while wearing a mask. We used Fusion 360 and SolidWorks to model and 3ds Max to render the GIF.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fade-test-wrapper4">
+                <div class="text-block">UX/UI & Software Projects |</div>
+                <div class="flex space-y-4 my-4 md:grid md:grid-cols-3 md:gap-4 md:space-7-0 fade-test4 fade-test-transition4">
+                    <div class="collection-item rounded-2xl">
+                        <a class="white-text-block">Supply Flow</a> 
+                        <a class="text-block-coll">January, 2020.</a>
+                        <img loading="lazy" src="images/logo.png" class="card-image">
+                        <p class="desc-block">At StarterHacks, my team created an algorithm that connects donating organizations to women's shelters in need. We used C# for the algorithm and JavaScript to make an online platform.</p>
+                    </div>
+                    <div class="collection-item rounded-2xl flex-3">
+                        <a class="white-text-block">tabyeet</a> 
+                        <a class="text-block-coll">November, 2020.</a>
+                        <img loading="lazy" class="card-image" src="images/tabyeet.jpg">
+                        <p class="desc-block">At NewHacks, my team made a Chrome extension that can allow a student to compile their online school links and open them easily. Chrome extension tools and the typical front-end languages are used.</p>
+                    </div>
+                    <div class="collection-item rounded-2xl flex-3">
+                        <a class="white-text-block">Personal Website</a> 
+                        <a class="text-block-coll">November, 2021.</a>
+                        <img loading="lazy" class="card-image" src="images/website.PNG">
+                        <p class="desc-block">Starting with almost zero experience in front-end development, I used online resources and previous workshop experience to create this website from scratch using Github Pages. It was a fun experience to put my passison for design into a wesbite that represents me.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.querySelector('.menu-btn')
+            .addEventListener('click', () => document.querySelector('.right-menu')
+            .classList.toggle('show'));
+    </script>
+    <script>
+        showSlides(1, 0);
+        showSlides(1, 1);
+    </script>
+    <script src="./js/loader.js"></script>
+    <script src="./js/fadeonscroll_works.js"></script>
+</body>

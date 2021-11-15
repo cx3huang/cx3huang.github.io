@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="js/slideshow.js"></script>
+    <meta charset="utf-8" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <div class="preloader">
+        <img src="./images/chelsea-img.png" alt="spinner" class="loader-img fade-in" style="animation-fill-mode: forwards;">
+    </div>
+    <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+    </div>
+    <div class="container">
+        <nav class="nav-menu">
+            <img src="images/Chelsea.png" alt="Logo" class="logo">
+            <ul class="left-menu">
+                <li>
+                    <a href="https://www.linkedin.com/in/chuang-0906/">
+                        <i class="fab fa-linkedin-in" style="color: #fff;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/cx3huang">
+                        <i class="fab fa-github-alt" style="color: #fff;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="tel:+1778-773-4984">
+                        <i class="fas fa-phone" style="color: #fff;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:cx3huang@uwaterloo.ca">
+                        <i class="fas fa-envelope" style="color: #fff;"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul class="right-menu">
+                <li><a href="./index.html" class="nav-link">About me</a></li>
+                <li><a href="./works.html" class="nav-link">Projects</a></li>
+                <li><a href="./experience.html" class="nav-link">Experiences</a></li>
+                <li><a href="./index.html#contact" class="nav-link button">Say hi!</a></li>
+            </ul>
+        </nav>
+        <div class="nav-button">
+            <div class="icon-nav-menu"></div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <h1 class="heading">My Experiences / /</h1>
+        </div>
+        <div class="container">
+            <div class="form-block rounded-2xl experiences">
+                <h1 class="secondary-heading" style="font-size: 24px;">Soft Robotics Research & Design Engineering | <i>Waterloo Microfluidics Laboratory</i></h1>
+                <div class="text-block" style="font-size: 16px; padding-top: 0;">september, 2021 - present |</div>
+                <img class="experiences-img" src="images/mic.png">
+                <img class="experiences-img" src="images/waterloo.png">
+                <ul class="bullet">
+                    <li>Designed innovative soft robotics hardware using SolidWorks, EagleCAD, and AutoCAD software.</li>
+                    <li>Utilized EagleCAD and Fritzing to design PCBs for two independent projects.</li>
+                    <li>Carried out iterative, comprehensive testing with hand-manufactured, high-fidelity prototypes in-lab.</li>
+                    <li>Assisted in publications to soft robotics-focused journals and edited patent aimed for overseas markets.</li>
+                </ul>
+            </div>
+            <div class="form-block rounded-2xl experiences">
+                <h1 class="secondary-heading" style="font-size: 24px;">Software Development Co-op | <i>Ford Motor Company</i></h1>
+                <div class="text-block" style="font-size: 16px; padding-top: 0;">may, 2020 - august, 2020 | january, 2021 - april, 2021 |</div>
+                <img class="experiences-img" src="images/Ford_logo_flat.png">
+                <ul class="bullet">
+                    <li>Explored and developed an IDL-based Python service using ApiGear for signal simulation in Unreal Engine. <br></li>
+                    <li>Designed and demonstrated a native API using Franca IDL for list paging implemented in C/C++.<br></li>
+                    <li>Utilized Android NDK toolchains to cross-compile middleware for Raspberry Pi 3 target for 2 PoCs<br></li>
+                    <li>Assisted with unit test validation during project porting to AOSP by executing board bring-up and debug tasks.<br></li>
+                    <li>Created non-compliance dashboards using JQL, SQL, and Jira macros for issue tracking and management.<br></li>
+                </ul>
+            </div>
+            <div class="form-block rounded-2xl experiences">
+                <h1 class="secondary-heading" style="font-size: 24px;">Math & Modelling Team Member | <i>iGEM Waterloo</i></h1>
+                <div class="text-block" style="font-size: 16px; padding-top: 0;">february, 2021 - present |</div>
+                <img class="experiences-img" src="images/igem.png" style="height: 90px;">
+                <ul class="bullet">
+                    <li>Designed microfluidics capillary pump to provide fluid flow to power a lab-on-a-chip ADHD diagnosis tool.</li>
+                    <li>Modelling processes for a lateral flow assay device using Matlab and SolidWorks.</li>
+                    <li>Analyzed publications focused on aptamer design and comparisons between various analytes.</li>
+                </ul>
+            </div>
+            <div class="form-block rounded-2xl experiences">
+                <h1 class="secondary-heading" style="font-size: 24px;">Mechanical Team Member | <i>Waterloo Airlock Team</i></h1>
+                <div class="text-block" style="font-size: 16px; padding-top: 0;">september, 2019 - august, 2021 |</div>
+                <img class="experiences-img" src="images/watlock.png" style="height: 60px;">
+                <ul class="bullet">
+                    <li>Created airlock prototype for UBC Mars Competition using SolidWorks for simulation and modelling in accordance with reports.</li>
+                    <li>Referenced design goals such as solar resistance to create prototype and obtain quotes from various suppliers.</li>
+                    <li>Verified assemblies to be manufactured, presented design at the UBC Mars Competition.</li>
+                </ul>
+            </div>
+            <div class="form-block rounded-2xl experiences">
+                <h1 class="secondary-heading" style="font-size: 24px;">Math & Science Tutor | <i>Paper Education Company</i></h1>
+                <div class="text-block" style="font-size: 16px; padding-top: 0;">october, 2021 - present |</div>
+                <img class="experiences-img" src="images/Paper_Education_Company_logo2020.png" style="height: 60px;">
+                <ul class="bullet">
+                    <li>Teaching students in math and science topics from elementary to post-secondary levels through text-based communication.</li>
+                    <li>Manage 3+ students at a single time while providing Socratic guidance and clear communication.</li>
+                    <li>Working as a member of the tutor team with 1000+ tutors, offering assistance when needed.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.querySelector('.menu-btn')
+            .addEventListener('click', () => document.querySelector('.right-menu')
+            .classList.toggle('show'));
+    </script>
+    <script src="./js/loader.js"></script>
+</body>
+</html>
