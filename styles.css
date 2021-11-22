@@ -93,6 +93,7 @@ html {
 }
 
 .desc-block-wide {
+    max-width: 90%;
     font-weight: 150;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -158,6 +159,12 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
+@media (max-width: 900px) {
+    .smol-nav-link {
+        display: none;
+    }
+}
+
 .nav-menu .logo {
     padding-top: 0;
     width: 120px;
@@ -181,6 +188,15 @@ html {
     .fade-test {
         transition: opacity 1.5s ease;
     }
+    .fade-test2 {
+        transition: opacity 1.5s ease;
+    }
+    .fade-test3 {
+        transition: opacity 1.5s ease;
+    }
+    .fade-test4 {
+        transition: opacity 1.5s ease;
+    }
 }
 
 .fade-test-transition {
@@ -191,12 +207,6 @@ html {
     opacity: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .fade-test2 {
-        transition: opacity 1.5s ease;
-    }
-}
-
 .fade-test-transition2 {
     opacity: 1;
 }
@@ -205,24 +215,12 @@ html {
     opacity: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .fade-test3 {
-        transition: opacity 1.5s ease;
-    }
-}
-
 .fade-test-transition3 {
     opacity: 1;
 }
 
 .fade-test4 {
     opacity: 0;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    .fade-test4 {
-        transition: opacity 1.5s ease;
-    }
 }
 
 .fade-test-transition4 {
@@ -303,51 +301,68 @@ html {
     display: none;
 }
 
-@media(max-width:700px) {
+.overlay {  
+    height: 100%;
+    width: 0;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9); 
+    overflow-x: hidden; 
+    transition: 0.5s; 
+}
+  
+.overlay-content {
+    position: relative;
+    top: 25%; 
+    width: 100%; 
+    text-align: center;
+    margin-top: 30px; 
+}
+  
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #95bd62;
+    display: block;
+    transition: 0.3s;
+}
+  
+.overlay a:hover, .overlay a:focus {
+    color: #5D793A;
+}
+  
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    font-size: 34px;
+}
+
+@media (max-width: 700px) {
     .menu-btn {
         display: block;
-    }
-
-    .menu-btn:hover {
-        opacity: 0.5;
-    }
-
-    .right-menu {
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background: #313131;
-        width: 40%;
-        opacity: 0;
-        padding: 16px;
-        transform: translateX(-500px);
+        opacity: 1;
         transition: opacity 0.5s ease-in;
     }
-
-    .right-menu li {
-        text-indent: -20px;
-        padding: 16px;
-        border-bottom: #949494 solid 1px;
+    .menu-btn:hover {
+        opacity: 0.8;
     }
-
-    .right-menu li:last-child {
-        border-bottom: none;
-    }
-
-    .left-menu {
+    .right-menu {
         display: none;
     }
+}
 
-    .nav-link:last-child {
-        border-bottom: 0;
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
     }
-
-    .right-menu.show {
-        transform: translateX(20px);
-        opacity: 0.9;
-    }
-
 }
 
 .btn {
@@ -539,7 +554,7 @@ ul {
 }
 
 .slideshow-container {
-    max-width: 100%;
+    max-width: 90%;
     max-height: 100%;
     position: relative;
     margin: auto;

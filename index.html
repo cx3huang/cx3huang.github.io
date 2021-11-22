@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title>Portfolio</title>
+    <title>Chelsea Huang</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
@@ -24,8 +24,17 @@
     <div class="preloader">
         <img src="./images/chelsea-img.png" alt="spinner" class="loader-img fade-in">
     </div>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="./index.html">About me</a>
+          <a href="./works.html">Projects</a>
+          <a href="./experience.html">Experiences</a>
+          <a href="./index.html#contact">Say hi!</a>
+        </div>
+    </div>
     <div class="menu-btn">
-        <i class="fas fa-bars"></i>
+        <i class="fas fa-bars" onclick="openNav()" id="menu-btn"></i>
     </div>
     <div class="container">
         <nav class="nav-menu">
@@ -122,12 +131,8 @@
             
         </div>
     </div>
-    <script>
-        document.querySelector('.menu-btn')
-            .addEventListener('click', () => document.querySelector('.right-menu')
-            .classList.toggle('show'));
-    </script>
     <script src="./js/loader.js"></script>
     <script src="./js/fadeonscroll.js"></script>
+    <script src="./js/sidenav.js"></script>
 </body>
 </html>
