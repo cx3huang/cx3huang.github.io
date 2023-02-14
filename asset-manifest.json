@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/cx3huang.github.io/static/css/main.250b3cb9.css",
-    "main.js": "/cx3huang.github.io/static/js/main.b5882fbc.js",
-    "static/media/exterior_lighting_4.jpg": "/cx3huang.github.io/static/media/exterior_lighting_4.cda1937d93920421c879.jpg",
-    "static/media/exterior_lighting_2.jpg": "/cx3huang.github.io/static/media/exterior_lighting_2.fe461e34368ddfdbd22c.jpg",
-    "static/media/exterior_lighting_1.jpg": "/cx3huang.github.io/static/media/exterior_lighting_1.a015745536536c937c42.jpg",
-    "static/media/exterior_lighting_3.jpg": "/cx3huang.github.io/static/media/exterior_lighting_3.219c8c862c3f78d2523d.jpg",
-    "static/media/fav.png": "/cx3huang.github.io/static/media/fav.226c38ddea843ad4b57c.png",
-    "index.html": "/cx3huang.github.io/index.html",
-    "main.250b3cb9.css.map": "/cx3huang.github.io/static/css/main.250b3cb9.css.map",
-    "main.b5882fbc.js.map": "/cx3huang.github.io/static/js/main.b5882fbc.js.map"
+    "main.css": "/static/css/main.250b3cb9.css",
+    "main.js": "/static/js/main.dade4834.js",
+    "static/media/exterior_lighting_4.jpg": "/static/media/exterior_lighting_4.cda1937d93920421c879.jpg",
+    "static/media/exterior_lighting_2.jpg": "/static/media/exterior_lighting_2.fe461e34368ddfdbd22c.jpg",
+    "static/media/exterior_lighting_1.jpg": "/static/media/exterior_lighting_1.a015745536536c937c42.jpg",
+    "static/media/exterior_lighting_3.jpg": "/static/media/exterior_lighting_3.219c8c862c3f78d2523d.jpg",
+    "static/media/fav.png": "/static/media/fav.226c38ddea843ad4b57c.png",
+    "index.html": "/index.html",
+    "main.250b3cb9.css.map": "/static/css/main.250b3cb9.css.map",
+    "main.dade4834.js.map": "/static/js/main.dade4834.js.map"
   },
   "entrypoints": [
     "static/css/main.250b3cb9.css",
-    "static/js/main.b5882fbc.js"
+    "static/js/main.dade4834.js"
   ]
 }
