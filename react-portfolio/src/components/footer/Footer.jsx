@@ -18,14 +18,14 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href='https://linkedin.com' target="_blank"><BsLinkedin/></a>
-        <a href='https://github.com' target="_blank"><FaGithub/></a>
+        <a href='https://www.linkedin.com/in/chuang-0906/' target="_blank"><BsLinkedin/></a>
+        <a href='https://github.com/cx3huang' target="_blank"><FaGithub/></a>
         <a href='mailto:cx3huang@uwaterloo.ca' target="_blank"><FaMailBulk/></a>
         <a href='tel:+1778-773-4984' target="_blank"><BsFillTelephoneFill/></a>
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Chelsea Huang, 2023.</small>
+        <small>&copy; Chelsea Huang, 2023. Hosted with GitHub Pages.</small>
       </div>
     </footer>
   )

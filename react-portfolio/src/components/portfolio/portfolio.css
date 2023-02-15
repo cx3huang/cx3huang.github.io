@@ -27,9 +27,16 @@
 }
 
 .portfolio__item-cta {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+.portfolio__item-cta small {
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+    color: var(--color-light);
 }
 
 /* =============== MEDIA QUERIES ============== */

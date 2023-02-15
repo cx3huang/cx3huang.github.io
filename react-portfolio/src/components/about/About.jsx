@@ -1,13 +1,14 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/fav.png'
-import {FiAward} from 'react-icons/fi'
-import {FiUsers} from 'react-icons/fi'
+import ME from '../../assets/profile.jpg'
+import {MdWork} from 'react-icons/md'
+import {MdSchool} from 'react-icons/md'
+import {FaCat} from 'react-icons/fa'
 
 const About = () => {
   return (
     <section id='about'>
-      <h5>Get To Know</h5>
+      <h5>Get to Know</h5>
       <h2>About Me</h2>
 
         <div className="container about__container">
@@ -20,28 +21,29 @@ const About = () => {
           <div className="about__content">
             <div className="about__cards">
               <article className='about__card'>
-                <FiAward className='about__icon' />
-                <h5>Experience</h5>
-                <small>3+ Years Working</small>
-              </article>
-              {/* TODO: FIX THE CARD DESCRIPTIONS */}
-              <article className='about__card'>
-                <FiUsers className='about__icon' />
+                <MdSchool className='about__icon' />
                 <h5>Education</h5>
                 <small>University of Waterloo</small>
               </article>
               <article className='about__card'>
-                {/* TODO: FIX ICON */}
-                <FiAward className='about__icon' />
-                <h5>Projects</h5>
-                <small>Numerous Personal Projects</small>
+                <MdWork className='about__icon' />
+                <h5>Experiences</h5>
+                <small>Software & Research</small>
+              </article>
+              <article className='about__card'>
+                <FaCat className='about__icon' />
+                <h5>Cat Lover</h5>
+                <small>: 3</small>
               </article>
             </div>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. A animi accusantium assumenda mollitia delectus cum accusamus odit minus blanditiis consequuntur voluptatem nisi nemo laudantium, quis eligendi ex, similique modi facere?
+              My name is Chelsea, currently a Biomedical Engineering student in my 4A term at the University of Waterloo. I am passionate about a lot of STEM subjects and software technologies. In my free time, I love visiting my friends' cats, exploring new restaurants, and playing video games. 
             </p>
-
+            <p>
+              I previously received the Lau Engineering Scholarship, numerous program Top Student awards, and the NSERC USRA Award. My current GPA is 94.02%. Some courses I took recently include Pattern Recognition, Control Systems, and Digital Systems.
+            </p>
+            
             <a href='#contact' className='btn btn-primary'>Contact Me</a>
           </div>
         </div>

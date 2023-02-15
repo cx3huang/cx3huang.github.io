@@ -1,6 +1,7 @@
 import React from 'react'
 import './experience.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
+// TODO: ADD WORK EXPERIENCE
 
 const Experience = () => {
   return (
