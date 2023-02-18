@@ -1,107 +1,139 @@
 import React from 'react'
 import './experience.css'
-import {BsPatchCheckFill} from 'react-icons/bs'
-// TODO: ADD WORK EXPERIENCE
+import {BiData} from 'react-icons/bi'
+import {AiFillRobot} from 'react-icons/ai'
+import {AiFillCar} from 'react-icons/ai'
+import {RiFlaskFill} from 'react-icons/ri'
+
 
 const Experience = () => {
   return (
     <section id='experience'>
       <h5>Skills</h5>
-      <h2>My Experience</h2>
+      <h2>My Experiences</h2>
 
       <div className="container experience__container">
-        <div className="experience__research">
-          <h3>Research Experience</h3>
+        <div className="nuralogix">
+          <h3>Data Science Developer Co-op</h3>
+          <h5>Nuralogix Corporation</h5>
+          <small>MAY - AUG 2022, JAN - APR 2023</small>
           <div className="experience__content">
-            {/* TODO: FIX THESE SKILLS */}
+            {/* TODO: CHECK THE VALUES */}
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <BiData className='experience__details-icon' />
               <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
+                <p>
+                  Developed and improved GAN model using Pytorch to increase accuracy of calculations by 60%. 
+                </p>
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <BiData className='experience__details-icon' />
               <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
+                <p>
+                  Utilized ML models with various methods (SVM, KNN) to improve video signal feature-labeling and analysis.
+                </p>
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <BiData className='experience__details-icon' />
               <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
+                <p>
+                  Extracted skin tone features from images in various colour spaces with OpenCV, using KMeans algorithm.
+                </p>
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <BiData className='experience__details-icon' />
               <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
+                <p>
+                  Provided prompt results to data cleaning and organizing tasks with automated scripts using pandas, NumPy.
+                </p>
               </div>
             </article>
           </div>
         </div>
-        <div className="experience__software">
-        <h3>Software Development</h3>
+        <div className="microfluidics">
+          <h3>Soft Robotics R&D Engineering</h3>
+          <h5>Waterloo Microfluidics Lab</h5>
+          <small>SEPT - DEC 2021</small>
           <div className="experience__content">
-            {/* TODO: FIX THESE SKILLS */}
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <AiFillRobot className='experience__details-icon' />
               <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
+                <p>
+                  Designed innovative soft robotics solutions to lymphedema using SolidWorks, Eagle, and AutoCAD. 
+                </p>
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <AiFillRobot className='experience__details-icon' />
               <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
+                <p>
+                  Developed PCB designs and soldered components to allow for electrical testing of sensors and prototypes.
+                </p>
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <AiFillRobot className='experience__details-icon' />
               <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
+                <p>
+                  Carried out iterative, comprehensive testing with hand-manufactured, high-fidelity prototypes in-lab.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div className="ford">
+          <h3>Software Development Co-op</h3>
+          <h5>Ford Motor Company</h5>
+          <small>MAY - AUG 2020, JAN - APR 2021</small>
+          <div className="experience__content">
+            <article className='experience__details'>
+              <AiFillCar className='experience__details-icon' />
+              <div>
+                <p>
+                  Designed and demonstrated a native API using Franca IDL for list paging implemented in C/C++.
+                </p>
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <AiFillCar className='experience__details-icon' />
               <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
+                <p>
+                  Explored and developed a Python service using API generators for signal simulation in Unreal Engine.
+                </p>
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <AiFillCar className='experience__details-icon' />
               <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
+                <p>
+                  Assisted with unit test validation during project porting to AOSP by executing board bring-up and debug tasks.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div className="igem">
+          <h3>Math & Modelling Team Member</h3>
+          <h5>Waterloo iGEM</h5>
+          <small>FEB 2021 - SEPT 2022</small>
+          <div className="experience__content">
+            <article className='experience__details'>
+              <RiFlaskFill className='experience__details-icon' />
+              <div>
+                <p>
+                  Researched and gathered genes for glycolysis and oxidative metabolism in S. cerevisiae strains.
+                </p>
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <RiFlaskFill className='experience__details-icon' />
               <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
+                <p>
+                  Implemented and used yeast metabolic models, analyzed yeast flux model results.
+                </p>
               </div>
             </article>
           </div>
