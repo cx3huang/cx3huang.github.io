@@ -4,6 +4,7 @@ import {BiData} from 'react-icons/bi'
 import {AiFillRobot} from 'react-icons/ai'
 import {AiFillCar} from 'react-icons/ai'
 import {RiFlaskFill} from 'react-icons/ri'
+import {GiLaserBurst} from 'react-icons/gi'
 
 
 const Experience = () => {
@@ -13,6 +14,54 @@ const Experience = () => {
       <h2>My Experiences</h2>
 
       <div className="container experience__container">
+        <div className="photomedicine">
+          <h3>Research & Development Co-op</h3>
+          <h5>PhotoMedicine Labs</h5>
+          <small>MAY - AUG 2023</small>
+          <div className="experience__content">
+            {/* TODO: CHECK THE VALUES */}
+            <article className='experience__details'>
+              <GiLaserBurst className='experience__details-icon' />
+              <div>
+                <p>
+                  Designed and fine-tuned deep learning model parameters in PyTorch to improve registration accuracy by 50%. 
+                </p>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <GiLaserBurst className='experience__details-icon' />
+              <div>
+                <p>
+                  Created and validated algorithm in Matlab to remove intensity artifacts, reduced error from 60% to 10%.
+                </p>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <GiLaserBurst className='experience__details-icon' />
+              <div>
+                <p>
+                  Refactored black-box function calls in Python from >10 library files for efficiency, reducing runtime by ~2 hours.
+                </p>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <GiLaserBurst className='experience__details-icon' />
+              <div>
+                <p>
+                  Processed large whole slide images (>3 GB) using OpenCV and scikit-image for stain-agnostic registration.
+                </p>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <GiLaserBurst className='experience__details-icon' />
+              <div>
+                <p>
+                Conducted wet-lab experiments, in particular in vivo imaging with PARS technology and optical laser alignment.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
         <div className="nuralogix">
           <h3>Data Science Developer Co-op</h3>
           <h5>Nuralogix Corporation</h5>

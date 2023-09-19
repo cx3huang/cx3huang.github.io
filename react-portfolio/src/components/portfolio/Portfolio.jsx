@@ -5,7 +5,7 @@ import PRJ2 from '../../assets/prosthetic.png'
 import PRJ3 from '../../assets/rendered.gif'
 import PRJ4 from '../../assets/sun_position.gif'
 import PRJ5 from '../../assets/pantheon.png'
-import PRJ6 from '../../assets/placehold.jpg'
+import PRJ6 from '../../assets/painproj.png'
 import {FaCat} from 'react-icons/fa'
 
 // const data = [
@@ -49,6 +49,17 @@ const Portfolio = () => {
       <h5>My (Incomplete)</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={PRJ6} alt="Pain Detection Wireframe" />
+          </div>
+          <h3>Automatic Pain Detection in Infants</h3>
+          <div className="portfolio__item-cta">
+            <small>
+              My fourth-year capstone project: Designing and building a stand-alone system for pain detection using computer vision and electrical sensors. We conducted feasibility analysis by meeting with relevant stakeholders, clarifying current protocol and pain points.
+            </small>
+          </div>
+        </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={PRJ1} alt="Ultrasound Sensor" />
@@ -105,12 +116,12 @@ const Portfolio = () => {
             </small>
           </div>
         </article>
-        <article className='portfolio__item'>
+        {/* <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={PRJ6} alt="" />
           </div>
           <h3>Next Project In Progress...</h3>
-        </article>
+        </article> */}
         {/* {
           data.map(({id, image, title, github, demo}) => {
             return(
