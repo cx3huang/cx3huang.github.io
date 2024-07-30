@@ -23,25 +23,25 @@ const About = () => {
               <article className='about__card'>
                 <MdSchool className='about__icon' />
                 <h5>Education</h5>
-                <small>University of Waterloo</small>
+                <small>ETH Zurich</small>
               </article>
               <article className='about__card'>
                 <MdWork className='about__icon' />
                 <h5>Experiences</h5>
-                <small>Software & Research</small>
+                <small>Machine Learning & Research</small>
               </article>
               <article className='about__card'>
                 <FaCat className='about__icon' />
-                <h5>Cat Lover</h5>
-                <small>: 3</small>
+                <h5>Interests</h5>
+                <small>Cats, Puzzles, Snowboarding</small>
               </article>
             </div>
 
             <p>
-              My name is Chelsea, currently a Biomedical Engineering student in my 4A term at the University of Waterloo. I'm a passionate believer of lifelong learning and super interested in a lot of STEM subjects and technologies. In my free time, I love visiting my friends' cats, exploring new restaurants, and playing video games. 
+              My name is Chelsea, currently a MSc EEIT student at ETH Zurich in the beautiful city of Zurich, Switzerland. I'm a passionate believer of lifelong learning and am super interested in a lot of STEM subjects and technologies. In my free time, I love visiting my friends' cats, exploring the surrounding areas with friends, and playing video games. 
             </p>
             <p>
-              I previously received the NSERC Undergraduate Student Research Award twice, in 2023 and 2021. From 2019-2021, I've also been the recipient of the Lau Engineering Scholarship, numerous program Top Student awards, and merit-based grants. My current GPA is 94.02%. Some courses I am taking at the moment include Image Processing, Deep Learning, and Optimization.
+              I attended the University of Waterloo for my undergraduate degree, earning a degree in Biomedical Engineering. While in Waterloo, I received the NSERC Undergraduate Student Research Award twice, as well as the Lau Engineering Scholarship, numerous program Top Student awards, and merit-based grants.
             </p>
             
             <a href='#contact' className='btn btn-primary'>Contact Me</a>

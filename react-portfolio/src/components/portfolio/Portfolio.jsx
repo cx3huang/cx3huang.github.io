@@ -5,7 +5,7 @@ import PRJ2 from '../../assets/prosthetic.png'
 import PRJ3 from '../../assets/rendered.gif'
 import PRJ4 from '../../assets/sun_position.gif'
 import PRJ5 from '../../assets/pantheon.png'
-import PRJ6 from '../../assets/painproj.png'
+import PRJ6 from '../../assets/painsightai.png'
 import {FaCat} from 'react-icons/fa'
 
 // const data = [
@@ -56,8 +56,9 @@ const Portfolio = () => {
           <h3>Automatic Pain Detection in Infants</h3>
           <div className="portfolio__item-cta">
             <small>
-              My fourth-year capstone project: Designing and building a stand-alone system for pain detection using computer vision and electrical sensors. We conducted feasibility analysis by meeting with relevant stakeholders, clarifying current protocol and pain points.
+              My fourth-year capstone project: Designing and building a stand-alone system for pain detection using computer vision and electrical sensors. We reported 85% final results on the clinically-collected infant dataset. Through meeting with 5+ medical stakeholders, we validated the need for such a device and addressed current protocol pain points.
             </small>
+            <a href='https://github.com/cx3huang/PainSightAI' className='btn btn-primary' target='_blank'>Github</a>
           </div>
         </article>
         <article className='portfolio__item'>

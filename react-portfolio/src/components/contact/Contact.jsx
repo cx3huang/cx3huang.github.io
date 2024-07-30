@@ -15,20 +15,14 @@ const Contact = () => {
           <article className='contact__option'>
             <FaMailBulk className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>cx3huang@uwaterloo.ca</h5>
-            <a href='mailto:cx3huang@uwaterloo.ca' target="_blank">Send An Email</a>
+            <h5>chelseahuang2001@hotmail.com</h5>
+            <a href='mailto:chelseahuang2001@hotmail.com' target="_blank">Send An Email</a>
           </article>
           <article className='contact__option'>
             <BsLinkedin className='contact__option-icon'/>
             <h4>LinkedIn</h4>
             <h5>chuang-0906</h5>
             <a href='https://www.linkedin.com/in/chuang-0906/' target="_blank">Send A Message</a>
-          </article>
-          <article className='contact__option'>
-            <BsFillTelephoneFill className='contact__option-icon'/>
-            <h4>Mobile Phone</h4>
-            <h5>(778) 773-4984</h5>
-            <a href='tel:+1778-773-4984' target="_blank">Leave A Message</a>
           </article>
         </div>
         {/* <form action="">

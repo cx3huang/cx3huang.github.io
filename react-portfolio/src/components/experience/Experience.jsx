@@ -17,7 +17,7 @@ const Experience = () => {
         <div className="photomedicine">
           <h3>Research & Development Co-op</h3>
           <h5>PhotoMedicine Labs</h5>
-          <small>MAY - AUG 2023</small>
+          <small>MAY - DEC 2023</small>
           <div className="experience__content">
             {/* TODO: CHECK THE VALUES */}
             <article className='experience__details'>
